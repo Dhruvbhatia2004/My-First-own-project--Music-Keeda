@@ -1,0 +1,135 @@
+body{
+    background-color: antiquewhite;
+
+}
+
+*{
+    margin:  0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    
+}
+
+nav ul li{
+    padding: 50px 10px;
+    font-size: larger;
+}
+
+
+.brand img {
+    width: 65px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("honey3.webp"); width: 900px;
+
+
+}
+
+.Bottom{
+    position: static;
+    height: 100px;
+    background-color:black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 15px;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.Songitem{
+    height: 40px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.866);
+    color: black;
+    width: 65%;
+    margin: 20px 0px ;
+    align-items: center;
+    font-size: x-large;
+    padding: 0 10px;
+    border-radius: 22px 0;
+
+    
+
+
+
+}
+
+.Songitem img{
+    height: 40px;
+    width: 50px;
+    margin: 4 5px;
+    align-items: start;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+.timestamp{
+    margin: 0 20px;
+   
+}
+
+.SongListPlay i{
+    cursor: pointer;
+}
+
+.Songinfo{
+    position: absolute;
+    left: 0;
+    align-items: center;
+    font-size: medium;
+   border-radius: 0ch;
+   
+   
+    padding: 1px;
+}
+
+.Songinfo img{
+    padding: 1px;
+    align-items: normal;
+    opacity: 0;
+    transition: opacity is ease-in;
+}
